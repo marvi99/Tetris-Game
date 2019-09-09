@@ -89,22 +89,21 @@ function SetupCanvas(){
     // Set font for score label text and draw
     ctx.fillStyle = 'black';
     ctx.font = '21px Arial';
-    ctx.fillText("SCORE", 300, 98);
- 
+    
     // Draw score rectangle
-    ctx.strokeRect(300, 107, 161, 24);
+    
  
     // Draw score
-    ctx.fillText(score.toString(), 310, 127);
+    
     
     // Draw level label text
-    ctx.fillText("LEVEL", 300, 157);
+    
  
     // Draw level rectangle
-    ctx.strokeRect(300, 171, 161, 24);
+    
  
     // Draw level
-    ctx.fillText(level.toString(), 310, 190);
+    
  
     // Draw next label text
     ctx.fillText("WIN / LOSE", 300, 221);
